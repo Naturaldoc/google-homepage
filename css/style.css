@@ -1,4 +1,43 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#container{
+    min-height: 100%;
+    position: relative;
+}
+
+input{
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+}
+#header{
+    height: 10px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+.nav, .nav-right{
+    margin:0;
+    padding:0;
+}
+.nav li{
+    float: left;
+}
+.nav-right li{
+    float: right;
+}
 .search{
     text-align: center;
-    margin-top: 400px;
+    margin-top: 300px;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: #eee;
 }
