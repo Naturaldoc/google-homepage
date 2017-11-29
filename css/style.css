@@ -11,7 +11,10 @@ a{
 }
 button{
     padding: 10px;
-    margin: 20px 5px;
+    margin: 30px 5px;
+}
+img{
+    padding-bottom: 20px;
 }
 input{
     width: 25%;
@@ -25,6 +28,7 @@ li{
 .nav, .nav-right{
     margin:0;
     padding:0;
+    padding-top: 5px;
 }
 .nav li{
     float: left;
@@ -34,7 +38,7 @@ li{
 }
 .search{
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 #container{
     min-height: 100%;
